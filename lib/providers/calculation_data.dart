@@ -41,6 +41,9 @@ class CalculationData extends ChangeNotifier {
     notifyListeners();
   }
 
+  //я знаю що це 2 рази виконується) тут тульки щоб порахувати
+  //в загальному це були б 4 змінні які б тут обраховувалися і використовувалися
+  //далі в гетерах
   calculateValues() {
     stopwatch.reset();
     stopwatch.start();
